@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    justify-content: space-between;
+    padding: 2rem;
+    background: #eee;
+}
+
+.div_tab{
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-items: center; */
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.lista-container{
+    display: flex;
+    gap: 50px;
+    /* text-decoration: none; */
+    list-style: none;
+}
+
+.lista-icones-menu{
+    font-size: 28px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.lista-icones-menu:hover{
+  transform: scale(1.1);
+}
